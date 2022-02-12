@@ -95,7 +95,7 @@ title: 关于
 - (安卓音乐播放器) Vinyl Music Player
 - (安卓终端) Termux
 - (文档编辑器) Vim
-- (文件管理器) nnn
+- (文件管理器) lf
 - (即时通信) matrix
 
 不常用的软件。
@@ -141,24 +141,24 @@ cdhsmcq 彩虹猫
 
 ### Arch 个人配置 ###
 
-请先[安装 arch](scr/arch.md)
+请先[安装 arch](arch.md)
 
 ```shell
-bash -c "$(curl -fsSL https://gitlab.com/glek/uz/raw/main/scr/arch.sh)"
+bash -c "$(curl -fsSL https://gitlab.com/glek/scripts/raw/main/sh/arch.sh)"
 ```
 
 
 ### Arch 服务器配置 ###
 
-请先[安装 arch](scr/archv.md)
+请先[安装 arch](archv.md)
 
 ```shell
-bash -c "$(curl -fsSL https://gitlab.com/glek/uz/raw/main/scr/arch.sh)"
+bash -c "$(curl -fsSL https://gitlab.com/glek/scripts/raw/main/sh/arch.sh)"
 ```
 
 
 ### Termux 配置 ###
 
 ```shell
-bash -c "$(curl -fsSL https://gitlab.com/glek/uz/raw/main/scr/termux.sh)"
+bash -c "$(curl -fsSL https://gitlab.com/glek/scripts/raw/main/sh/termux.sh)"
 ```
