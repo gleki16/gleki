@@ -1,16 +1,17 @@
 <!doctype html>
 <html lang="zh">
     <head>
+        <script src="res/js/include.js"></script>
         <title>gleki 首页</title>
-        {{include "/inc/head.html"}}
+        <include src="inc/head.html"></include>
     </head>
     <body>
-        {{include "/inc/nav.html"}}
+        <include src="inc/nav.html"></include>
         <main class="container">
             <section>
                 <article>
                     <h1>以结果为导向</h1>
-                    <a href="/doc/about">关于</a>
+                    <a href="doc/about">关于</a>
                 </article>
                 <article>
                     <h3>本站有以下特性：</h3>
@@ -21,7 +22,7 @@
                     </ol>
                 </article>
             </section>
-            {{include "/inc/footer.html"}}
+            <include src="inc/footer.html"></include>
         </main>
     </body>
 </html>
